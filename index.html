@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Website giới thiệu Nghệ An: quê hương, danh lam thắng cảnh, văn hóa và ẩm thực.">
+<title>Nghệ An — Miền đất địa linh nhân kiệt</title>
+<style>
+:root{--navy:#0b2942;--blue:#0878d1;--pale:#eef7ff;--ink:#18334b;--muted:#55708a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65}
+a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:5;background:rgba(8,35,56,.97);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:14px max(4vw,18px);gap:20px}
+.brand{font-size:25px;font-weight:800;font-style:italic;white-space:nowrap}.brand span{color:#8dd5ff}.navlinks{display:flex;gap:22px;align-items:center;font-size:14px}.navlinks a:hover{color:#8dd5ff}
+.hero{min-height:460px;display:flex;align-items:center;color:#fff;padding:60px max(6vw,22px);background:linear-gradient(90deg,rgba(4,27,44,.82),rgba(4,27,44,.18)),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-inner{max-width:650px}.eyebrow{text-transform:uppercase;letter-spacing:5px;font-size:14px}.hero h1{font-size:clamp(48px,8vw,86px);line-height:1.02;margin:8px 0 18px;font-family:Georgia,serif;font-style:italic}.hero p{font-size:19px;max-width:560px}.btn{display:inline-block;margin-top:16px;padding:13px 22px;border-radius:30px;background:var(--blue);color:#fff;font-weight:bold}.btn:hover{background:#0565b4}
+section{padding:54px max(5vw,20px)}.section-title{font-size:13px;font-weight:800;color:var(--blue);letter-spacing:1.4px;text-transform:uppercase}.intro-grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:42px;align-items:start}.intro h2,.section-heading{font-size:30px;line-height:1.2;margin:8px 0 18px;color:var(--navy)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.stat{padding:14px 10px;background:var(--pale);border-radius:12px;text-align:center}.stat strong{display:block;font-size:20px;color:var(--blue)}.stat span{font-size:12px;color:var(--muted)}
+.places{background:#f6fbff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:24px}.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px #0b29420d;transition:transform .2s}.card:hover{transform:translateY(-4px)}.card img{width:100%;height:190px;object-fit:cover;display:block}.card-body{padding:18px}.card h3{margin:0 0 7px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px}
+.culture-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.culture-item{display:flex;gap:18px;align-items:center;background:#f1f8ff;padding:18px;border-radius:14px}.culture-item img{width:125px;height:110px;object-fit:cover;border-radius:10px}.culture-item h3{margin:0 0 5px}.culture-item p{margin:0;font-size:14px;color:var(--muted)}
+.quote{text-align:center;background:linear-gradient(180deg,#eaf6ff,#fff);padding:42px 20px;color:#075ca5;font-size:22px;font-weight:bold;font-style:italic}
+footer{background:var(--navy);color:#dbe8f3;padding:28px max(5vw,20px);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}footer strong{font-size:22px}footer small{color:#b4c9da}
+@media(max-width:850px){.nav{align-items:flex-start;flex-direction:column}.navlinks{flex-wrap:wrap;gap:12px}.intro-grid,.culture-grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.hero{min-height:420px}.stats{gap:8px}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}.card img{height:210px}.culture-item{align-items:flex-start}.culture-item img{width:100px;height:100px}.intro h2,.section-heading{font-size:25px}.hero p{font-size:17px}.stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home">▲ Nghệ An<span>.</span></a>
+  <nav class="navlinks" aria-label="Điều hướng">
+    <a href="#home">Trang chủ</a><a href="#gioi-thieu">Giới thiệu</a><a href="#danh-thang">Danh lam thắng cảnh</a><a href="#van-hoa">Văn hóa - Ẩm thực</a><a href="#lien-he">Liên hệ</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Xin chào, đây là</div>
+    <h1>Nghệ An</h1>
+    <p>Vùng đất của những con người cần cù, hiếu học, giàu truyền thống văn hóa và lịch sử.</p>
+    <a class="btn" href="#gioi-thieu">Khám phá Nghệ An&nbsp; →</a>
+  </div>
+</section>
+<section id="gioi-thieu">
+  <div class="intro-grid">
+    <div class="intro">
+      <div class="section-title">Giới thiệu</div>
+      <h2>Nghệ An — Miền đất địa linh nhân kiệt</h2>
+      <p>Nghệ An nằm ở khu vực Bắc Trung Bộ, nổi bật với thiên nhiên đa dạng từ miền núi, đồng bằng đến bờ biển. Đây là quê hương của Chủ tịch Hồ Chí Minh, đồng thời là vùng đất có bề dày lịch sử, truyền thống hiếu học và tinh thần vượt khó.</p>
+      <p>Không chỉ có cảnh đẹp, Nghệ An còn được biết đến bởi dân ca ví, giặm, những lễ hội truyền thống và sự mến khách của người dân xứ Nghệ.</p>
+      <div class="stats">
+        <div class="stat"><strong>16.486 km²</strong><span>Diện tích xấp xỉ</span></div>
+        <div class="stat"><strong>Xứ Nghệ</strong><span>Vùng đất giàu truyền thống</span></div>
+        <div class="stat"><strong>Đa dạng</strong><span>Núi, đồng bằng, biển</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="section-title">Điểm nổi bật</div>
+      <h2 class="section-heading">Một vùng đất — nhiều trải nghiệm</h2>
+      <p>Từ bãi biển xanh trong đến những di tích lịch sử thiêng liêng, mỗi điểm đến đều kể một câu chuyện riêng về thiên nhiên và con người Nghệ An.</p>
+      <a class="btn" href="#danh-thang">Xem các điểm đến</a>
+    </div>
+  </div>
+</section>
+<section class="places" id="danh-thang">
+  <div class="section-title">Khám phá</div>
+  <h2 class="section-heading">Danh lam thắng cảnh nổi bật</h2>
+  <div class="cards">
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Bãi biển xanh và sóng biển"><div class="card-body"><h3>Biển Cửa Lò</h3><p>Bãi biển nổi tiếng với bờ cát dài, làn nước xanh và không khí trong lành, thích hợp cho kỳ nghỉ mùa hè.</p></div></article>
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80" alt="Lối đi trong khu rừng xanh"><div class="card-body"><h3>Khu di tích Kim Liên</h3><p>Quê hương Chủ tịch Hồ Chí Minh, nơi lưu giữ nhiều kỷ vật gắn với tuổi thơ và gia đình của Người.</p></div></article>
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80" alt="Rừng xanh và thiên nhiên"><div class="card-body"><h3>Vườn quốc gia Pù Mát</h3><p>Khu bảo tồn thiên nhiên rộng lớn với hệ sinh thái phong phú, rừng xanh và nhiều loài động thực vật quý.</p></div></article>
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Hồ nước giữa núi non"><div class="card-body"><h3>Đảo chè Thanh Chương</h3><p>Những đồi chè xanh mướt ôm lấy mặt hồ tạo nên khung cảnh thơ mộng, yên bình giữa miền quê.</p></div></article>
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80" alt="Thiên nhiên hoang sơ"><div class="card-body"><h3>Miền Tây Nghệ An</h3><p>Vùng núi có cảnh sắc hùng vĩ, bản làng đặc sắc và nhiều nét văn hóa truyền thống của các dân tộc.</p></div></article>
+    <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Dãy núi trùng điệp"><div class="card-body"><h3>Núi non xứ Nghệ</h3><p>Những dãy núi trùng điệp góp phần tạo nên vẻ đẹp đa dạng và sức hấp dẫn riêng của vùng đất này.</p></div></article>
+  </div>
+</section>
+<section id="van-hoa">
+  <div class="section-title">Bản sắc xứ Nghệ</div>
+  <h2 class="section-heading">Văn hóa — Ẩm thực</h2>
+  <div class="culture-grid">
+    <article class="culture-item"><img loading="lazy" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80" alt="Món ăn truyền thống"><div><h3>Cháo lươn Nghệ An</h3><p>Món ăn nổi tiếng với vị cay thơm, đậm đà, thường được nhắc đến khi nói về ẩm thực xứ Nghệ.</p></div></article>
+    <article class="culture-item"><img loading="lazy" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80" alt="Bánh truyền thống"><div><h3>Bánh, kẹo truyền thống</h3><p>Kẹo cu đơ với lớp mật ngọt, lạc rang và bánh tráng là món quà dân dã mang hương vị quê nhà.</p></div></article>
+    <article class="culture-item"><img loading="lazy" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80" alt="Phong cảnh núi trời"><div><h3>Dân ca ví, giặm</h3><p>Di sản văn hóa phi vật thể đại diện của nhân loại, thể hiện tâm hồn, tình cảm và đời sống người dân Nghệ Tĩnh.</p></div></article>
+    <article class="culture-item"><img loading="lazy" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=400&q=80" alt="Mọi người sinh hoạt cùng nhau"><div><h3>Con người xứ Nghệ</h3><p>Người dân nổi tiếng cần cù, chân thành, hiếu học và luôn trân trọng những giá trị gia đình, quê hương.</p></div></article>
+  </div>
+</section>
+<div class="quote">“Nghệ An — nơi lưu giữ những giá trị lịch sử, văn hóa và tình người xứ Nghệ.”</div>
+</main>
+<footer id="lien-he">
+  <div><strong>▲ Nghệ An</strong><br><small>Đất học · Đất nghề · Đất nghĩa tình</small></div>
+  <div><small>Website học tập môn Tin học 12<br>Chủ đề: Giới thiệu quê hương Nghệ An</small></div>
+  <a href="#home">↑ Về đầu trang</a>
+</footer>
+</body>
+</html>
